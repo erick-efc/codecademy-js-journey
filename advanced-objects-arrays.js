@@ -47,7 +47,7 @@ const team = {
       lastName: newLastName,
       age: newAge
     };
-    return this._players.push(newPlayer);
+    this._players.push(newPlayer);
   },
   addGame (newOpp, newTeamScore, newOppScore) {
     const newGame = {
@@ -55,7 +55,7 @@ const team = {
       teamPoints: newTeamScore,
       opponentPoints: newOppScore
     };
-    return this._games.push(newGame);
+    this._games.push(newGame);
   }
 };
 //Now adding players and games to populate the object
