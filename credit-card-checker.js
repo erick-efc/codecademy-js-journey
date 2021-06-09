@@ -80,6 +80,8 @@ const idInvalidCardCompanies = (arr) => {
   return operators;
 };
 //Below some suggestions of how to test the functions
+console.log(validateCred(valid3));
+console.log(findInvalidCards(batch));
 console.log(idInvalidCardCompanies([invalid1])); 
 console.log(idInvalidCardCompanies([invalid2])); 
 console.log(idInvalidCardCompanies(batch)); 
