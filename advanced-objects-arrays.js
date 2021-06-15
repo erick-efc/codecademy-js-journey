@@ -81,7 +81,7 @@ console.log('');
 const calcTeamAvgAge = () => {
   let age = 0;
   for (let i = 0; i < team._players.length; i++) {
-   age += team._players[i].age;
+    age += team._players[i].age;
   };
   console.log(`The team average age is ${age / team._players.length}`)
 };
